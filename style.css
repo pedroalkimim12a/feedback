@@ -12,5 +12,36 @@
     --medium-grey: #7C8798;
     --orange: #FC7614;
     --very-dark-blue: #131518;
-    --black-gragient: radial-gradient(98,96% 98,96% at 50% 0% #232A34 0%, #181E27 100%);
+    --black-gragient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+   
+}
+
+body {
+    background-color:var(--very-dark-blue);
+    height: 100svh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+div.cartao{
+    background:var(--black-gragient);
+    max-width: 412px;
+    padding: 32px;
+    border-radius: 30px; 
+}
+
+div.cartao h1 {
+    color: white;
+}
+div.cartao p {
+    color:var(--light-grey);
+    
+}
+
+.estrela{
+    background-color: var(--very-dark-blue);
+    width: 48px;
+    height: 48px;
 }
