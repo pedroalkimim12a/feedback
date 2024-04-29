@@ -85,7 +85,8 @@ div.cartao p {
     background-color: var(--light-grey);
 }
 
-.cartao > button {
+.cartao > a {
+    display: block;
     width: 100%;
     padding: 13px;
     background-color: var(--orange);
@@ -97,7 +98,14 @@ div.cartao p {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: white;
+    text-align: center;
+    
 
     transition: all ease-in-out 0.3s;
+   }
+   .cartao > a:hover {
+    color: var(--orange);
+    background-color: white;
+    cursor: pointer;
    }
 
